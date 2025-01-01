@@ -1,4 +1,22 @@
-<?php
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    
+    <link rel="stylesheet" href="Assets/CSS/SignUpPage/global.css" />
+    <link rel="stylesheet" href="Assets/CSS/SignUpPage/index.css" />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" />
+  </head>
+  <script>
+
+    <?php
 session_start();
 require 'Database/connection.php';
 // Ensure the database connection is included
@@ -147,23 +165,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
 
 
 ?>
-<!DOCTYPE html>
-<html>
-  
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
     
-    <link rel="stylesheet" href="Assets/CSS/SignUpPage/global.css" />
-    <link rel="stylesheet" href="Assets/CSS/SignUpPage/index.css" />
-    <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
-    <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" />
-  </head>
-  
+  </script>
   <body>
     <div class="root">
       <main class="navigation">
