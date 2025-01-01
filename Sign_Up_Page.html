@@ -28,6 +28,8 @@ require 'vendor/autoload.php'; // Load Composer's autoloader
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   if(isset($_POST['send_code'])){
+
+    if(!empty($_POST['name']) || !empty($_POST['username']) || !empty($_POST['email']) || !empty($_POST['password']) || !empty($_POST['confirm_password']) ){
     // Capture user input
     $name = $_POST["name"];
     $username = $_POST["username"];
@@ -45,11 +47,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       $result_fetch = mysqli_fetch_assoc($result);
       if($result_fetch['username'] == $username)
       {
-        echo "<script>alert('$result_fetch[username] - Username already exists'); window.location.href = 'Sign_Up_Page.php'</script>";
+        echo "?> alert('$result_fetch[username] - Username already exists'); window.location.href = 'Sign_Up_Page.php'; <?php";
       }
       else
       {
-        echo "<script>alert('$result_fetch[email] - Email already exists');</script>";
+        echo "?> alert('$result_fetch[email] - Email already exists'); <?php ";
       }
     }
     else
@@ -63,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         
         // Execute the query
         if ($con->query($query) === TRUE) {
-          // echo "<script>alert('User  Registration Successful'); window.location.href='Email_Verification_Page.php';</script>";
+          
 
           // session_start();
 
@@ -114,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     
                         $mail->send();
                         // echo 'Verification code has been sent to your email.';
-                        echo "<script>alert('User  Registration Successful'); window.location.href='Email_Verification_Page.php';</script>";
+                        echo "?> alert('User  Registration Successful'); window.location.href='Email_Verification_Page.php'; <?php";
                     } 
                     catch (Exception $e) 
                     {
@@ -132,12 +134,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         } 
         else 
         {
-          echo "<script>alert('Error: " . $con->error . "');</script>";
+          echo "?> alert('Error: " . $con->error . "'); <?php";
         }
       } 
       else 
       {
-        echo "<script>alert('Passwords do not match. Please try again.');</script>";
+        echo "?> alert('Passwords do not match. Please try again.'); <?php";
       }
     
     }
@@ -145,11 +147,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   }
   else
   {
-    echo "<script>alert('Error: " . $con->error . "');</script>";
+    echo "?> alert('Error: " . $con->error . "'); <?php";
   }
   
 }
 
+}
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') 
