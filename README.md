@@ -1,2 +1,1 @@
 # SecurePassWebApp
-# index.php
