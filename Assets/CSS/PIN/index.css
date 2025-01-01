@@ -1,0 +1,287 @@
+.depth-6-frame-019,
+.vector-06 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.depth-6-frame-019 {
+  width: 13px;
+  height: 13px;
+}
+.depth-5-frame-020 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.depth-4-frame-07 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.securepass4 {
+  position: relative;
+  line-height: 23px;
+  display: inline-block;
+  min-width: 104px;
+}
+.depth-2-frame-03,
+.depth-3-frame-07 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.depth-2-frame-03 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  padding: var(--padding-xs) var(--padding-1085xl) var(--padding-2xs)
+    var(--padding-21xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-0);
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--background-default-default);
+  font-family: var(--font-manrope);
+}
+.depth-6-frame-020 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 320px;
+}
+.depth-4-frame-08,
+.depth-5-frame-021 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.depth-5-frame-021 {
+  flex: 1;
+  padding: var(--padding-xs) var(--padding-base);
+}
+.depth-4-frame-08 {
+  height: 344px;
+}
+.create-a-4-digit {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.depth-4-frame-18 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-base) var(--padding-xs);
+}
+.securepass-requires-a {
+  align-self: stretch;
+  position: relative;
+  line-height: 21px;
+}
+.depth-4-frame-23 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-base) var(--padding-xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-100);
+}
+.depth-6-frame-021 {
+  align-self: stretch;
+  width: 48px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray-200);
+  text-align: center;
+  font-size: 24px;
+  color: #FFF;
+  font-family: var(--font-manrope);
+}
+.depth-4-frame-32,
+.depth-5-frame-022 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.depth-5-frame-022 {
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.depth-4-frame-32 {
+  height: 80px;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+}
+.continue {
+  color: aliceblue;
+  text-decoration:none;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-manrope);
+  color: var(--background-default-default);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.depth-6-frame-022 {
+  width: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.depth-5-frame-023 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs-5) var(--padding-xl);
+  background-color: var(--color-cornflowerblue);
+  width: 480px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 243px);
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 84px;
+  max-width: 480px;
+}
+.depth-3-frame-08,
+.depth-4-frame-42,
+.depth-5-frame-023 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.depth-4-frame-42 {
+  align-self: stretch;
+  height: 64px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-base);
+  position: relative;
+  max-width: 100%;
+}
+.depth-3-frame-08 {
+  width: 960px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 113px 0 var(--padding-xl);
+  max-width: 960px;
+}
+.depth-2-frame-04 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 800px;
+  max-width: 100%;
+}
+.depth-1-frame-02 {
+  align-self: stretch;
+  flex-direction: column;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--background-default-default);
+  font-family: var(--font-manrope);
+}
+.depth-0-frame-02,
+.depth-1-frame-02,
+.galileo-design {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.depth-0-frame-02 {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  flex-direction: column;
+  max-width: 100%;
+}
+.galileo-design {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-default-default);
+  overflow: hidden;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .depth-3-frame-08 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .depth-3-frame-08 {
+    padding-top: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .depth-2-frame-03 {
+    padding-right: var(--padding-533xl);
+    box-sizing: border-box;
+  }
+  .depth-5-frame-023 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .depth-2-frame-03 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .create-a-4-digit {
+    font-size: var(--font-size-lg);
+    line-height: 22px;
+  }
+}
+
+
+
+
+.depth-5-frame-023:hover{
+  background-color: #71a5f9;
+  /* box-shadow: 0 0 0 5px #3b83f65f; */
+  color: #fff;
+}

@@ -1,0 +1,68 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212;
+}
+
+.password-card {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.password-card h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.password-card label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.password-card input[type="text"],
+.password-card input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.password-card .button-group {
+    display: flex;
+    justify-content: center;
+}
+
+.password-card .back-button,
+.password-card .save-button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.password-card .back-button {
+    background-color: #6c757d;
+}
+
+.password-card .save-button {
+    background-color: #007bff;
+}
+
+@media (max-width: 480px) {
+    .password-card {
+        padding: 20px 30px;
+    }
+}

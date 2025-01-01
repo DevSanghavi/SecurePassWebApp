@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-manrope: Manrope;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --background-default-default: #fff;
+  --color-dodgerblue: #1a80e6;
+  --color-darkslategray: #293038;
+  --color-slategray: #637587;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-3xs-5: 9.5px;
+  --padding-9xs: 4px;
+  --padding-mini: 15px;
+  --padding-5xs: 8px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+}

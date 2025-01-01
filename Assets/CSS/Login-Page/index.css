@@ -1,0 +1,398 @@
+.depth-6-frame-09,
+.vector-05 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.depth-6-frame-09 {
+  width: 13px;
+  height: 13px;
+}
+.depth-5-frame-010 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.depth-4-frame-03 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.securepass2 {
+  position: relative;
+  line-height: 23px;
+  display: inline-block;
+  min-width: 104px;
+  white-space: nowrap;
+}
+.depth-3-frame-03 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  line-height: 21px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 39px;
+}
+.depth-5-frame-011 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+}
+.depth-2-frame-01,
+.welcome-to-securepass1 {
+  align-self: stretch;
+  font-family: var(--font-manrope);
+  color: var(--background-default-default);
+}
+.depth-2-frame-01 {
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-21xl) var(--padding-2xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.welcome-to-securepass1 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+.depth-4-frame-04 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-base) var(--padding-xs);
+}
+.enter-your-username {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-strong-size);
+  line-height: 24px;
+  font-family: var(--font-manrope);
+  color: var(--background-default-default);
+  text-align: center;
+}
+.depth-4-frame-14,
+.depth-6-frame-010 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-base) var(--padding-xs);
+}
+.depth-6-frame-010 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 32px;
+  box-sizing: border-box;
+  font-family: var(--font-manrope);
+  font-weight: 500;
+  font-size: var(--body-strong-size);
+  color: var(--background-default-default);
+  min-width: 250px;
+}
+
+.depth-6-frame-010::placeholder{
+  padding: 5px;
+  position: relative;
+  /* top: 10px; */
+}
+
+.depth-6-frame-16 {
+  margin-top: 20px;
+  align-self: stretch;
+  height: 50px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray-100);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.depth-4-frame-21,
+.depth-5-frame-012 {
+  display: flex;
+  justify-content: flex-start;
+}
+.depth-5-frame-012 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 160px;
+  max-width: 100%;
+}
+.depth-4-frame-21 {
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  max-width: 480px;
+}
+.depth-6-frame-012 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 2px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.remember-this-account {
+  position: relative;
+  font-size: var(--body-strong-size);
+  line-height: 24px;
+  font-family: var(--font-manrope);
+  color: var(--background-default-default);
+  text-align: center;
+}
+.depth-4-frame-41,
+.depth-5-frame-014 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.depth-5-frame-014 {
+  width: 692px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  gap: var(--gap-xs);
+}
+.depth-4-frame-41 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.log-in1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-manrope);
+  color: var(--background-default-default);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.depth-6-frame-013 {
+  width: 41px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.depth-4-frame-5,
+.depth-5-frame-015 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.depth-5-frame-015 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs-5) var(--padding-xl);
+  background-color: var(--color-cornflowerblue);
+  width: 480px;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  align-items: center;
+  min-width: 84px;
+  max-width: 480px;
+}
+.depth-4-frame-5 {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  max-width: 100%;
+}
+.forgot-your-username {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-manrope);
+  color: var(--color-darkgray-100);
+  text-align: center;
+}
+.depth-3-frame-04,
+.depth-4-frame-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.depth-4-frame-7 {
+  align-self: stretch;
+  padding: var(--padding-9xs) var(--padding-base) var(--padding-xs);
+}
+.depth-3-frame-04 {
+  margin: 0;
+  width: 960px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-xl) 0 231px;
+  box-sizing: border-box;
+  max-width: 960px;
+}
+.depth-2-frame-1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-xl) 19px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.depth-1-frame-0 {
+  align-self: stretch;
+  flex-direction: column;
+  max-width: 100%;
+}
+.depth-0frame-0,
+.depth-1-frame-0,
+.galileo-design {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.depth-0frame-0 {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  flex-direction: column;
+  max-width: 100%;
+}
+.galileo-design {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-default-default);
+  overflow: hidden;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media (max-width: 768px) {
+  .depth-3-frame-04 {
+    width: 100%;
+    padding: var(--padding-base);
+  }
+  .depth-2-frame-1 {
+    flex-direction: column;
+    padding: var(--padding-base);
+  }
+  .depth-5-frame-015 {
+    width: 100%;
+    padding: var(--padding-base);
+  }
+  .depth-3-frame-03 {
+    flex-direction: column;
+    gap: var(--gap-sm);
+  }
+}
+
+@media (max-width: 480px) {
+  .depth-5-frame-011 {
+    font-size: var(--font-size-sm);
+  }
+  .securepass2 {
+    font-size: var(--font-size-sm);
+  }
+}
+
+
+
+
+
+.home{
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+.home:hover{
+  /* color: #51a5ff; Change color on hover */
+  transform: scale(1.02); /* Slightly scale up the element */
+  text-underline-offset: 5px;
+  text-decoration: underline;
+}
+
+
+.depth-5-frame-015:hover{
+  background-color: #71a5f9;
+  /* box-shadow: 0 0 0 5px #3b83f65f; */
+  color: #fff;
+}
+
+.depth-2-frame-01 {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background and shadow */
+}
+
+.depth-2-frame-01.sticky {
+  background-color: #121417; /* Background color when sticky */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect when sticky */
+  position: fixed; /* Fix the navbar to the top */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 725px) {
+  .home {
+      display: none; /* Hide some elements on smaller screens */
+  }
+  /* Other responsive styles... */
+}
+
+
+.depth-6-frame-16  input{
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.depth-6-frame-010::placeholder{
+  padding: 10px;
+  /* margin-top: 10px; */
+  position: relative;
+  /* top: 10px; */
+}

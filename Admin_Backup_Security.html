@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="Assets/CSS/Admin Backup&security/global.css" />
+    <link rel="stylesheet" href="Assets/CSS/Admin Backup&security/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+    />
+  </head><style>
+    /* Initial button styles */
+    .toggle-button {
+        background-color: #1c2126;
+        color: #FFFFFF;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    /* Styles for the disabled state */
+    .disabled {
+        background-color: #1A80E6;
+    }
+</style>
+<script>
+  function toggleButton() {
+      const button = document.getElementById('toggleButton');
+      if (button.classList.contains('disabled')) {
+          button.classList.remove('disabled');
+          button.textContent = 'Enable';
+          button.style.backgroundColor = '#1c2126'; // Change background to grey
+      } else {
+          button.classList.add('disabled');
+          button.textContent = 'Disable';
+          button.style.backgroundColor = '#1A80E6'; // Change background to blue
+      }
+  }
+  function toggleButton2() {
+    const button = document.getElementById('toggleButton2');
+    if (button.classList.contains('disabled')) {
+        button.classList.remove('disabled');
+        button.textContent = 'Enable';
+        button.style.backgroundColor = '#1c2126'; // Change background to grey
+    } else {
+        button.classList.add('disabled');
+        button.textContent = 'Disable';
+        button.style.backgroundColor = '#1A80E6'; // Change background to blue
+    }
+}
+</script>
+  <body>
+    <div class="galileo-design">
+      <main class="depth-0-frame-0">
+        <section class="depth-1-frame-0">
+          <header class="depth-2-frame-0">
+            <div class="depth-3-frame-0">
+              <div class="depth-4-frame-0">
+                <div class="depth-5-frame-0">
+                  <img
+                    class="vector-0"
+                    loading="lazy"
+                    alt=""
+                    src="Assets/Image/Admin Backup&security/vector--0.svg"
+                  />
+
+                  <div class="depth-6-frame-0"></div>
+                </div>
+              </div>
+              <div class="depth-4-frame-0">
+                <a class="securepass">SecurePass</a>
+              </div>
+            </div>
+            <div class="depth-3-frame-1">
+              <div class="depth-4-frame-3">
+                <div class="depth-4-frame-0">
+                  <a class="dashboard" href="Admin_Dashboard.php">Dashboard</a>
+                </div>
+                <div class="depth-4-frame-0">
+                  <a class="users" href="Admin_Users.html">Users</a>
+                </div>
+                <div class="depth-4-frame-0">
+                  <a class="back-up" href="Admin_Backup_Security.html">Backup & Security</a>
+                </div>
+                <div class="depth-4-frame-0">
+                  <a class="security-policies" href="Admin_Policy.html">Policies</a>
+                </div>
+                <div class="depth-5-frame-4"></div>
+              </div>
+            </div>
+            <img
+              class="account-circle-icon"
+              loading="lazy"
+              alt=""
+              src="Assets/Image/Admin Backup&security/account-circle.svg"
+            />
+          </header>
+          <div class="depth-2-frame-1">
+            <div class="depth-3-frame-01">
+              <div class="depth-4-frame-01">
+                <div class="depth-5-frame-01">
+                  <h1 class="security">Backup & Security</h1>
+                </div>
+              </div>
+              <div class="depth-4-frame-11">
+                <b class="two-factor-authentication"
+                  >Two-factor authentication</b
+                >
+              </div>
+              <div class="depth-4-frame-2">
+                <div class="depth-5-frame-02">
+                  <div class="depth-6-frame-01">
+                    <div class="two-factor-authentication1">
+                      Two-factor authentication
+                    </div>
+                  </div>
+                  <div class="depth-6-frame-1">
+                    <div class="once-set-up">
+                      Once set up, two-factor authentication will be required
+                      for all users in this organization.
+                    </div>
+                  </div>
+                </div>
+                <div class="depth-5-frame-11">
+                  <div class="depth-6-frame-02">
+                    <div class="depth-7-frame-0">
+                      <button id="toggleButton" class="toggle-button" onclick="toggleButton()">Enable</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="depth-4-frame-11">
+                <b class="two-factor-authentication"
+                  >Zero trust encryption method</b
+                >
+              </div>
+              <div class="depth-4-frame-2">
+                <div class="depth-5-frame-03">
+                  <div class="depth-6-frame-01">
+                    <div class="two-factor-authentication1">
+                      Zero trust encryption method
+                    </div>
+                  </div>
+                  <div class="depth-6-frame-1">
+                    <div class="once-set-up">
+                      Once set up, zero trust encryption method will be required
+                      for all users in this organization.
+                    </div>
+                  </div>
+                </div>
+                <div class="depth-5-frame-11">
+                  <div class="depth-6-frame-02">
+                    <div class="depth-7-frame-0">
+                      <button id="toggleButton2" class="toggle-button" onclick="toggleButton2()">Enable</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="depth-4-frame-11">
+                <b class="two-factor-authentication">Backup and recovery</b>
+              </div>
+              <div class="depth-4-frame-6">
+                <div class="depth-5-frame-04">
+                  <div class="depth-6-frame-01">
+                    <div class="two-factor-authentication1">
+                      Backup and recovery
+                    </div>
+                  </div>
+                  <div class="depth-6-frame-12">
+                    <div class="you-have-not">
+                      You have not set up backup and recovery options for your
+                      account. We strongly recommend doing so to avoid losing
+                      access to your account.
+                    </div>
+                  </div>
+                </div>
+                <button class="depth-5-frame-13">
+                  <div class="depth-6-frame-06">
+                    <div class="depth-7-frame-0">
+                      <div class="set-up" id="setup-backup" onclick="setup()">Set up</div>
+                    </div>
+                  </div>
+                </button>
+              </div>
+              <div class="depth-4-frame-9">
+                <button class="depth-5-frame-06">
+                  <div class="depth-7-frame-0">
+                    <b class="save-changes">Save changes</b>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <footer class="depth-2-frame-2">
+            <div class="depth-3-frame-02">
+              <div class="depth-4-frame-02">
+                <div class="depth-5-frame-07">
+                  <div class="securepass1">© 2024 SecurePass</div>
+                </div>
+              </div>
+            </div>
+            <input type="file" id="file-selector" webkitdirectory directory multiple style="display:none;">
+          </footer>
+        </section>
+      </main>
+    </div>
+    <script>
+      function setup(){
+      document.getElementById('setup-backup').addEventListener('click', () => {
+          document.getElementById('file-selector').click();
+        });
+        
+        document.getElementById('file-selector').addEventListener('change', (event) => {
+          const files = event.target.files;
+          if (files.length > 0) {
+            const selectedPath = files[0].webkitRelativePath.split('/')[0];
+            fetch('/api/backup', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ path: selectedPath }),
+            })
+            .then(response => response.json())
+            .then(data => {
+              if (data.success) {
+                alert('Backup created successfully');
+              } else {
+                alert('Error creating backup');
+              }
+            });
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

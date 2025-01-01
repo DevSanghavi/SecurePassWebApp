@@ -1,0 +1,145 @@
+HTML Code
+
+    <!-- Add this modal structure just before the closing </body> tag -->
+  <div id="overlay" class="overlay">
+    <div class="message-card" id="message-cards">
+        <div class="card-header">
+            <span class="check-icon">&#10003;</span>
+            <h2>Account Registered</h2>
+            <button class="close-button" id="close-button">&times;</button>
+        </div>
+        <div class="card-body">
+            <p>Kindly log in with your credentials</p>
+        </div>
+        <div class="button-group">
+            <button class="ok-button" id="ok-button">OK</button>
+        </div>
+    </div>
+  </div>   
+
+
+CSS Code
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+/* Add this CSS to your existing styles */
+.message-card {
+  z-index: 1001;
+  overflow: auto;
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  position: relative;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.check-icon {
+  font-size: 1.5em;
+  padding-right: 10px;
+}
+
+.card-header h2 {
+  font-size: 18px;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.card-body {
+  margin-bottom: 20px;
+}
+
+.card-body p {
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.ok-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.ok-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+  .message-card {
+      padding: 15px;
+  }
+
+  .ok-button {
+      padding: 10px;
+  }
+}
+
+/* Blur effect for the background
+.blur {
+  .root{
+    filter: blur(2px);
+  }
+} */
+
+
+
+JS Script
+
+// Add this code to your existing scripts.js
+document.querySelector('.depth-5-frame-016').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent the default form submission
+  document.getElementById('overlay').style.display = 'flex'; // Show the modal
+  document.body.classList.add('blur'); // Add blur effect to the background
+});
+
+
+document.getElementById('close-button').addEventListener('click', () => {
+  const messageCard = document.getElementById('message-card');
+  messageCard.style.display = 'none';
+  alert("Closing message card");
+});
+
+document.getElementById('ok-button').addEventListener('click', () => {
+  alert("Acknowledged");
+});
+
+overlay.addEventListener('click', function(event) {
+    if (event.target === overlay) {
+        hideOverlay();
+    }
+});
