@@ -1,0 +1,22 @@
+{
+    "name": "shsd/securepass",
+    "description": "It is a College Project on password security management and encryption web app made by Gujarat University Students",
+    "type": "project",
+    "require": {
+        "ext-pdo_mysql": "*",
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shsd\\Securepass\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dev",
+            "email": "devsanghavi53@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
