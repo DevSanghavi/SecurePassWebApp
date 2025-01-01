@@ -1,12 +1,3 @@
-<?php
-
-session_start();
-
-session_unset();
-
-?>
-
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -21,8 +12,15 @@ session_unset();
     />
   </head>
   <body>
+    <script>
+      <?php
+        session_start();
+        session_unset();
+      ?>
+    </script>
+    
     <div class="depth-0-frame-0" role="banner" aria-label="Main Navigation">
-      <header class="depth-2-frame-0"  aria-label="Primary Navigation">
+      <header class="depth-2-frame-0" aria-label="Primary Navigation">
         <div class="depth-3-frame-0">
           <div class="depth-4-frame-0">
             <div class="depth-5-frame-0">
@@ -32,7 +30,6 @@ session_unset();
                 alt=""
                 src="Assets/Image/Home Page/vector--0.svg"
                 />
-                
                 <div class="depth-6-frame-0"></div>
               </div>
             </div>
